@@ -1,0 +1,417 @@
+<?php
+
+include_once(DOC_ROOT . "/pages/" . DOMAIN_DIR . "/section_header_v2.0.php");
+
+?>
+	
+<!-- HTML / CSS Goes here -->
+
+<!-- Alert messages -->
+<div class="container clearfix hidden-block">
+	<div class="row ">
+		<div class="col-md-10 col-md-offset-1">
+		
+			<div class="style-msg successmsg">
+			<div class="sb-msg"><i class="icon-thumbs-up"></i><strong>Well done!</strong> You successfully read this important alert message.</div>
+				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+			</div>
+
+			<div class="style-msg errormsg">
+				<div class="sb-msg"><i class="icon-remove"></i><strong>Oh snap!</strong> Change a few things up and try submitting again.</div>
+			</div>
+
+			<div class="style-msg infomsg">
+				<div class="sb-msg"><i class="icon-info-sign"></i><strong>Heads up!</strong> This alert needs your attention, but it's not super important.</div>
+			</div>
+
+			<div class="style-msg alertmsg">
+				<div class="sb-msg"><i class="icon-warning-sign"></i><strong>Warning!</strong> Better check yourself, you're not looking too good.</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<section>
+	<div class="content-wrap custom-top">
+		<div class="container clearfix">
+			<div class="row">
+				<div class="col-md-6 extra-space">
+					<div class="promo promo-border promo-center box-border ">
+						<div class="box-wrapper">
+							<div class="portfolio-desc">
+								<h3>Upload the Quote</h3>
+							</div>
+							
+							<h5 class="bottommargin">Upload your <span>Quote</span> by selecting the file</h5>
+							<div class="file-input 	bottommargin">
+								<input id="input-quote" type="file" class="file">		
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 extra-space">
+					<div class="promo promo-border promo-center box-border ">
+						<div class="box-wrapper">
+							<div class="portfolio-desc">
+								<h3>Upload the Invoice</h3>
+							</div>
+							<h5 class="bottommargin">Upload your <span>invoice</span> by selecting the file</h5>
+
+							<div class="file-input-rob 	bottommargin">
+								<input id="input-invoce" type="file" class="file">		
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="loader"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="container-fluid center clearfix bottommargin" id="actionrun">
+	<!-- <a href="#" class="button button-3d button-rounded button-green button-xlarge pulse animated"><i class="icon-rocket"></i>Compare</a>-->
+	<div class="container clearfix">
+		<div class="row">
+			<div class="col-md-12 ">
+				<div class="pricing-box pricing-extended clearfix">
+					<div class="pricing-desc col-ms-8 box-border">
+						<div class="pricing-title">
+							<h3>Features</h3>
+						</div>
+						<div class="pricing-features">
+							<ul class="clearfix">
+								<li><i class="icon-ok"></i> Upload your files immediately, no registration required</li>
+								<li><i class="icon-ok"></i> We don't limit upload speeds, it's as fast as your connection</li>
+								<li><i class="icon-ok"></i>File size up to 20GB</li>
+								<li><i class="icon-ok"></i>Files previewed or played in a browser</li>
+								
+							</ul>
+						</div>
+					</div>
+
+					<div class="pricing-action-area col col-md-4 box-border">
+						<div class="pricing-meta">
+							As Low as
+						</div>
+						<div class="pricing-price">
+							<span class="price-unit">&pound;</span>5<span class="price-tenure">Only</span>
+						</div>
+						<div class="pricing-action">
+							<a href="#" class="button button-3d button-rounded button-green button-xlarge btn-block nomargin">Pay Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section>
+	<div class="parallax nomargin notopborder" style="background: url('../../imgs/quotecheck/banner/5.jpg') center center;background-size: cover;" data-stellar-background-ratio="0.4">
+		
+
+		<div class="container-fluid center clearfix add-bc">
+
+			<div class="heading-block">
+				<h2>See how much time you could save now</h2>
+				<span>Annoyed that you're invoiced more than you were quoted? <br /> Upload a scan of your invoice and the original quote <br />
+				Click a button and we can do the checking for you</span>
+				<div class="clear"></div>
+			</div>
+
+			
+			<div class="clear"></div>	
+			<div class="promo promo-center">
+				<a href="#" class="button button-3d button-rounded button-green button-xlarge"><i class="icon-plus"></i>Get Started</a>
+			</div>
+		</div>
+	</div>		
+</section>
+<section>
+<div class="row clearfix">
+
+					
+
+					<div class="col-md-4 col-sm-4 dark center col-padding" style="background-color: rgb(87, 111, 158); height: 326px;">
+						<div>
+							<i class="i-plain i-xlarge divcenter icon-line-bar-graph-2"></i>
+							<div class="counter counter-lined"><span data-from="3000" data-to="2500" data-refresh-interval="100" data-speed="2500">21500</span></div>
+							<h5>Quotes Given</h5>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-4 dark center col-padding" style="background-color: rgb(102, 151, 185); height: 326px;">
+						<div>
+							
+							
+							<i class="i-plain i-xlarge divcenter icon-line-search"></i>
+							
+							
+							<div class="counter counter-lined"><span data-from="10" data-to="408" data-refresh-interval="25" data-speed="3500">408</span></div>
+							<h5>Discrepancies Found</h5>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-4 dark center col-padding" style="background-color: rgb(136, 195, 216); height: 326px;">
+						<div>
+							<i class="i-plain i-xlarge divcenter icon-line2-credit-card"></i>
+							<div class="counter counter-lined"><a style="color: #004421!important;">£</a><span data-from="60" data-to="1400" data-refresh-interval="30" data-speed="2700"></span></div>
+							<h5>Total saved</h5>
+						</div>
+					</div>
+
+				</div>
+	
+	
+	
+</section>
+		
+		
+				
+
+<!-- <section id="price-display">
+	<div class="container clearfix">
+		<div class="row">
+			<div class="col-md-12 ">
+				<div class="pricing-box pricing-extended clearfix">
+					<div class="pricing-desc col-ms-8 box-border">
+						<div class="pricing-title">
+							<h3>Features</h3>
+						</div>
+						<div class="pricing-features">
+							<ul class="clearfix">
+								<li><i class="icon-ok"></i> Upload your files immediately, no registration required</li>
+								<li><i class="icon-ok"></i>More TBC</li>
+								<li><i class="icon-ok"></i> We don't limit upload speeds, it's as fast as your connection</li>
+								<li><i class="icon-ok"></i>File size up to 20GB</li>
+								<li><i class="icon-ok"></i>Files previewed or played in a browser</li>
+								<li><i class="icon-ok"></i>More TBC</li>
+								<li><i class="icon-ok"></i>More TBC</li>
+								<li><i class="icon-ok"></i> More TBC</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="pricing-action-area col col-md-4 box-border">
+						<div class="pricing-meta">
+							As Low as
+						</div>
+						<div class="pricing-price">
+							<span class="price-unit">&pound;</span>5<span class="price-tenure">Only</span>
+						</div>
+						<div class="pricing-action">
+							<a href="#" class="button button-3d button-rounded button-green button-xlarge btn-block nomargin">Pay Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>-->
+
+
+<section id="paymeny_method">
+	<div class="container clearfix">
+		<section id="data_table">
+		<h3>Output Examples</h3>
+		<h4 class="no-bottom-margin">Differences between quote and invoice</h4>
+			
+			<!--canvas!--> 
+			
+			<table class="table table-bordered table-striped">
+							  <colgroup>
+								<col class="col-xs-1">
+								<col class="col-xs-10">
+							  </colgroup>
+							  <thead>
+								<tr>
+								  	<th>Line#</th>
+								  	<th>Item code/</th>
+									<th colspan="4">Quote</th>
+									<th colspan="4">Invoice</th>
+									<th colspan="2">Difference</th>
+								</tr>
+							  </thead>
+				<tr>
+							<td></td>
+							<td></td>
+							<td>Qty</td>
+							<td>Unit cost</td>
+							<td>Discount %</td>
+							<td>Cost</td>
+							<td>Qty</td>
+							<td>Unit cost</td>
+							<td>Discount %</td>
+							<td>Cost</td>
+							<td>Per Unit</td>
+							<td>Total</td>
+						</tr>
+						<tbody>
+							<td>173</td> <!-- Line# !-->
+							<td>METRE CABLE 6943LSH 1.5MM LSF SWA HARMONISED</td> <!-- item code !-->
+							<td>35</td> <!--Qty (quote)!-->
+							<td>£12.30</td> <!-- unit cost (quote) !-->
+							<td>70</td> <!--Discount(quote) !-->
+							<td>£129</td> <!--cost(quote)!-->
+							<td>35</td> <!--Qty(invoice)!-->
+							<td>£12.30</td> <!-- unit cost(invoice) !-->
+							<td>0</td> <!--Discount(invoice) !-->
+							<td>£430</td> <!--cost(invoice)!-->
+							<td>£3.7</td> <!-- per unit !-->
+							<td>£301.5</td> <!-- total !-->
+						</tbody>
+						<tr>
+							<td>10</td> <!-- line#!-->
+							<td>SC20GP SMITH M20 SOLID COUPLER GALVANISED</td> <!-- item code !-->
+							<td>170</td> <!--Qty!-->
+							<td>£33.49</td> <!-- unit cost !-->
+							<td>25.1</td> <!--Discount !-->
+							<td>£0.75</td> <!--cost(quote)!-->
+							<td>150</td> <!--Qty!-->
+							<td>£33.49</td> <!-- unit cost !-->
+							<td>25</td> <!--Discount !-->
+							<td>£0.80</td> <!--cost(invoice)!-->
+							<td>£0.05</td> <!-- per unit !-->
+							<td>£1.75</td> <!-- total !-->
+						</tr>
+						<tr>
+							<td colspan="9" style="visibility:hidden;" ></td>
+							<td colspan="2" style="font-weight: bold;">Total Impact</td>
+							<td>£1.75</td>
+						</tr>
+								
+							  
+							</table>
+			<!-- canvas 2 !-->
+			
+		<h4 class="no-bottom-margin">Non-quoted items</h4>
+			<table class="table table-bordered table-striped">
+							  <colgroup>
+								<col class="col-xs-1">
+								<col class="col-xs-10">
+							  </colgroup>
+							  <thead>
+								<tr>
+								  	<th>Line#</th>
+								  	<th>Item code/</th>
+									<th colspan="4">Invoice</th>
+									<th colspan="2">Difference</th>
+								</tr>
+							  </thead>
+						<tr>
+							<td></td>
+							<td></td>
+							<td>Qty</td> 
+							<td>Unit cost</td>
+							<td>Discount %</td>
+							<td>Cost</td>
+							<td>Per unit</td>
+							<td>Total</td>
+						</tr>
+						<tbody>
+							<td>40</td>
+							<td>6491B DRAKA 2.5MM NRM 100M CU LSF 450/740V BS7211</td>
+							<td>70</td> <!--Qty!-->
+							<td>£43.20</td> <!-- unit cost !-->
+							<td>50</td> <!--Discount !-->
+							<td>£0.80</td> <!--Cost !-->
+							<td>£0.05</td> <!-- per unit !-->
+							<td>£1.75</td> <!-- total !-->
+						</tbody>
+						<tr>
+							<td>200</td>
+							<td>NLS4428EN NEWLEC 8X2" SCREW POZI RND HEAD TWIN THREAD ZINC P</td>
+							<td>80</td> <!--Qty!-->
+							<td>£17.83</td> <!-- unit cost !-->
+							<td>60</td> <!--Discount !-->
+							<td>£0.80</td> <!--Cost !-->
+							<td>£20.00</td> <!-- per unit !-->
+							<td>£1.75</td> <!-- total !-->
+						</tr>
+							
+						<tr>
+							<td colspan="5" style="visibility:hidden;" ></td>
+							<td colspan="2" style="font-weight: bold;">Total Impact</td>
+							<td>£1.75</td>
+						</tr>
+								
+							  
+							</table>
+			
+			<!-- canvas 3 -->
+		<h4 class="no-bottom-margin">Non-invoiced items</h4>
+			<table class="table table-bordered table-striped">
+							  <colgroup>
+								<col class="col-xs-1">
+								<col class="col-xs-10">
+							  </colgroup>
+							  <thead>
+								<tr>
+								  	<th>Line#</th>
+								  	<th>Item code/</th>
+									<th colspan="4">Quote</th>
+									<th colspan="2">Difference</th>
+								</tr>
+							  </thead>
+				<tr>
+							<td></td>
+							<td></td>
+							<td>Qty</td>
+							<td>Unit Cost</td>
+							<td>Discount %</td>
+							<td>Cost</td>
+							<td>Per unit</td>
+							<td>Total</td>
+						</tr>
+							  <tbody>
+							<td>70</td>
+							<td>MSB20SP SMITH M20 BRASS BUSH MALE SHORT</td>
+							<td>50</td> <!--Qty!-->
+							<td>£20.10</td> <!-- unit cost !-->
+							<td>30</td> <!--Discount !-->
+							<td>£0.80</td> <!--Cost !-->
+							<td>£0.05</td> <!-- per unit !-->
+							<td>£1.75</td> <!-- total !-->
+							  </tbody> 
+							<tr>
+							<td>50</td>
+							<td>20MM CONDUIT GALV HGSW 3.75M CLASS4</td>
+							<td>200</td> <!--Qty!-->
+							<td>£30.20</td> <!-- unit cost !-->
+							<td>60</td> <!--Discount !-->
+							<td>£0.80</td> <!--Cost !-->
+							<td>£0.05</td> <!-- per unit !-->
+							<td>£1.75</td> <!-- total !-->
+						</tr>
+							<tr>
+								 <td colspan="5" style="visibility:hidden;" ></td>
+								<td colspan="2" style="font-weight: bold;">Total Impact</td>
+								<td>£1.75</td>
+							</tr>
+								
+							  
+							</table>
+			
+			
+			</div>
+		</section><!-- #content end -->
+
+							</div>
+	</div>
+</div>
+</div>
+</section>
+
+
+
+
+<!-- HTML / END -->		
+
+<?php
+			
+	 include_once(DOC_ROOT . "/pages/" . DOMAIN_DIR . "/section_footer_v1.0.php");		
+			
+?>

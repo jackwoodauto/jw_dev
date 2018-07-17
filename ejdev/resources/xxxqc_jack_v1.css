@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
+
+.pricing-price{
+  margin-bottom: 0;
+  padding-bottom: 0 !important;
+}
+
+.Button-animationWrapper-child--primary{
+  font-family: "Montserrat", serif !important;
+  background: #59BA41 !important;
+  color: #FFF !important;
+  padding: 10px 20px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 3px !important;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15) !important;
+  font-size: 20px;
+  margin-top: '-=15px';
+}
+
+
+/*--- Adjust the stripe button colours ---*/
+.stripe-button-el {
+  font-family: "Montserrat", serif !important;
+  background: #59BA41 !important;
+  color: #FFF !important;
+  padding: 10px 20px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 3px !important;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15) !important;
+  font-size: 20px;
+  rows
+
+}
+
+.stripe-button-el span {
+  font-family: "Montserrat", serif !important;
+  background: inherit !important;
+  color: inherit !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+  font-size: 17px !important;
+
+}
+
+
+.stripe-button-el:hover {
+  font-family: "Montserrat", serif !important;
+  background: #59BA41 !important;
+  color: #FFF !important;
+  padding: 10px 20px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 3px !important;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15) !important;
+  font-size: 20px;
+  opacity: 0.9 !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.highlight_price .stripe-button-el {
+  background: #1abc9c !important;
+}
+
+
+.Button-animationWrapper-child--primary  {
+  font-family: "Montserrat", serif !important;
+  background: #59BA41 !important;
+  color: #FFF !important;
+  padding: 10px 30px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 3px !important;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15) !important;
+  font-size: 20px;
+
+}
+.Input{
+  font-family: "Montserrat", serif !important;
+  background: #59BA41 !important;
+  color: #FFF !important;
+  padding: 10px 30px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 3px !important;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15) !important;
+  font-size: 20px;
+
+}
+.stripe-button {
+  font-family: "Montserrat", serif !important;
+  background: #59BA41 !important;
+  color: #FFF !important;
+  padding: 10px 30px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 3px !important;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15) !important;
+  font-size: 20px;
+
+}
+.submit  {
+  font-family: "Montserrat", serif !important;
+  background: #59BA41 !important;
+  color: #FFF !important;
+  padding: 10px 30px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 3px !important;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15) !important;
+  font-size: 20px;
+
+}
+
+
+.Checkout.is-desktop {
+  font-family: "Montserrat", serif !important;
+  background: #59BA41 !important;
+  color: #FFF !important;
+  padding: 10px 30px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 3px !important;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15) !important;
+  font-size: 20px;
+
+}
+
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+  transition:1.2s;
+}
+.toggledBg{
+  background:#59BA41!important;
+  transition:1.2s;
+
+}
+
+.toggle{
+width:120px;
+  height:50px;
+  background:rgba(240,240,240,0.6);
+  border-radius:100rem;
+  position:relative;
+  cursor:pointer;
+  transform: rotate(-13deg);
+   transition:.6s;
+margin: auto;
+  }
+
+.toggle:after{
+  transition:.6s;
+  transition-delay:.3s;
+  width:40px;
+  height:40px;
+  background:rgba(255,255,255,1);
+  position:absolute;
+  left:5px;
+  top:5px;
+  content:'';
+  border-radius:inherit;
+  margin: auto;
+}
+.toggled{
+  transform: rotate(13deg);
+  transition:.6s;
+  margin: auto;
+  }
+  .toggled:after{
+  transition:.6s;
+    transition-delay:.3s;
+    width:40px;
+    height:40px;
+    background:rgba(255,255,255,1);
+    position:absolute;
+    left:calc(120px - 45px);
+    top:5px;
+    content:'';
+    border-radius:inherit;
+    margin: auto;
+}
