@@ -1,5 +1,0 @@
-ErrorDocument 401 "Authorization Required"
-AuthUserFile /home/ejdev/PDRJ3F5B/htdocs/secure/.htpasswd
- AuthName "This is highly secure and contains lots of personal information"
- AuthType Basic
- require valid-user
